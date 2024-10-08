@@ -1,0 +1,862 @@
+{
+  "searchLocations": [
+    {
+      "name": "München Hbf",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:7480",
+      "score": 0.036838267,
+      "longitude": 11.5583,
+      "latitude": 48.1402,
+      "extraInfo": {
+        "attributes": [
+          "MainStation",
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:benerail",
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb",
+        "urn:trainline:connection:ot",
+        "urn:trainline:connection:renfe",
+        "urn:trainline:connection:pao_sncf",
+        "urn:trainline:connection:trenitalia",
+        "urn:trainline:connection:westbahn"
+      ]
+    },
+    {
+      "name": "München",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:7686",
+      "score": 0.018265713,
+      "longitude": 11.5583,
+      "latitude": 48.1402,
+      "extraInfo": {
+        "attributes": [
+          "BusStation",
+          "category:point"
+        ]
+      },
+      "locationType": "city",
+      "defaultLanguage": "en",
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:busbud",
+        "urn:trainline:connection:busbud_affiliate",
+        "urn:trainline:connection:distribusion",
+        "urn:trainline:connection:flixbus_affiliate",
+        "urn:trainline:connection:pao_sncf",
+        "urn:trainline:connection:trenitalia"
+      ]
+    },
+    {
+      "name": "München Hbf (tief)",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:16779",
+      "score": 0.006554579,
+      "longitude": 11.5605,
+      "latitude": 48.1412,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "station",
+        "name": "München Hbf",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Flughafen Terminal",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:7681",
+      "score": 0.003936376,
+      "longitude": 11.786,
+      "latitude": 48.3537,
+      "extraInfo": {
+        "attributes": [
+          "Airport",
+          "MainStation",
+          "BusStation",
+          "category:airport"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "station",
+        "name": "München Flughafen",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:distribusion",
+        "urn:trainline:connection:flixbus_affiliate",
+        "urn:trainline:connection:obb",
+        "urn:trainline:connection:pao_sncf"
+      ]
+    },
+    {
+      "name": "München Ost",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:7683",
+      "score": 0.0012831826,
+      "longitude": 11.605,
+      "latitude": 48.1274,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:benerail",
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb",
+        "urn:trainline:connection:ot",
+        "urn:trainline:connection:pao_sncf",
+        "urn:trainline:connection:trenitalia",
+        "urn:trainline:connection:westbahn"
+      ]
+    },
+    {
+      "name": "München-Pasing",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:7684",
+      "score": 0.00029687057,
+      "longitude": 11.4615,
+      "latitude": 48.1499,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:benerail",
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb",
+        "urn:trainline:connection:pao_sncf",
+        "urn:trainline:connection:trenitalia"
+      ]
+    },
+    {
+      "name": "München Flughafen Terminal 2",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:16130",
+      "score": 0.0002522104,
+      "longitude": 11.7901,
+      "latitude": 48.3557,
+      "extraInfo": {
+        "attributes": [
+          "Airport",
+          "BusStation",
+          "category:airport"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "station",
+        "name": "München Flughafen",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:distribusion",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Flughafen",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:34614",
+      "score": 0.00024832255,
+      "longitude": 11.7854,
+      "latitude": 48.3519,
+      "extraInfo": {
+        "attributes": [
+          "Airport",
+          "BusStation",
+          "category:airport"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:distribusion"
+      ]
+    },
+    {
+      "name": "München Marienplatz",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12767",
+      "score": 5.35324E-05,
+      "longitude": 11.5754,
+      "latitude": 48.137,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Flughafen Terminal 1",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:16129",
+      "score": 5.8118043E-05,
+      "longitude": 11.7862,
+      "latitude": 48.3534,
+      "extraInfo": {
+        "attributes": [
+          "Airport",
+          "category:airport"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "station",
+        "name": "München Flughafen",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst"
+      ]
+    },
+    {
+      "name": "München Flughafen Terminal 1 Area D/E",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:34613",
+      "score": 4.735175E-05,
+      "longitude": 11.7854,
+      "latitude": 48.3519,
+      "extraInfo": {
+        "attributes": [
+          "Airport",
+          "BusStation",
+          "category:airport"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "station",
+        "name": "München Flughafen",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:distribusion"
+      ]
+    },
+    {
+      "name": "München Hackerbrücke",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12762",
+      "score": 2.512135E-05,
+      "longitude": 11.5485,
+      "latitude": 48.1419,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:benerail",
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Harras",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:7453",
+      "score": 1.7744445E-05,
+      "longitude": 11.5363,
+      "latitude": 48.1177,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb",
+        "urn:trainline:connection:pao_sncf"
+      ]
+    },
+    {
+      "name": "München ZOB (Hackerbrücke)",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:17589",
+      "score": 1.7445382E-05,
+      "longitude": 11.5499,
+      "latitude": 48.1423,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Flughafen Besucherpark",
+      "translatedName": "Munich visitors park",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12798",
+      "score": 3.6685145E-05,
+      "longitude": 11.7645,
+      "latitude": 48.352,
+      "extraInfo": {
+        "attributes": [
+          "Airport",
+          "category:airport"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "station",
+        "name": "München Flughafen",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Rosenheimer Platz",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12768",
+      "score": 1.654819E-05,
+      "longitude": 11.593,
+      "latitude": 48.1292,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Donnersbergerbrücke",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12761",
+      "score": 1.515256E-05,
+      "longitude": 11.5365,
+      "latitude": 48.1426,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Riem",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12791",
+      "score": 9.370662E-06,
+      "longitude": 11.678,
+      "latitude": 48.144,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Laim",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12783",
+      "score": 9.0715985E-06,
+      "longitude": 11.5039,
+      "latitude": 48.144,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Solln",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12792",
+      "score": 8.971911E-06,
+      "longitude": 11.527,
+      "latitude": 48.0799,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Feldmoching",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12779",
+      "score": 8.473471E-06,
+      "longitude": 11.5413,
+      "latitude": 48.2138,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Karlsfeld",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12782",
+      "score": 7.875344E-06,
+      "longitude": 11.4598,
+      "latitude": 48.2108,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Karlsplatz",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12764",
+      "score": 7.775656E-06,
+      "longitude": 11.5656,
+      "latitude": 48.1395,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Isartor",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12763",
+      "score": 7.2772164E-06,
+      "longitude": 11.5833,
+      "latitude": 48.1341,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Trudering",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12793",
+      "score": 6.3800253E-06,
+      "longitude": 11.6634,
+      "latitude": 48.1261,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Berg am Laim",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12774",
+      "score": 6.1806495E-06,
+      "longitude": 11.6337,
+      "latitude": 48.1342,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Fasanerie",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12777",
+      "score": 5.9812737E-06,
+      "longitude": 11.5259,
+      "latitude": 48.1978,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München Siemenswerke",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12769",
+      "score": 5.4828342E-06,
+      "longitude": 11.5328,
+      "latitude": 48.0945,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Johanneskirchen",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12781",
+      "score": 4.9843948E-06,
+      "longitude": 11.6461,
+      "latitude": 48.1676,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    },
+    {
+      "name": "München-Allach",
+      "translatedName": "Munich",
+      "countryCode": "DE",
+      "code": "urn:trainline:generic:loc:12772",
+      "score": 4.585643E-06,
+      "longitude": 11.468,
+      "latitude": 48.1899,
+      "extraInfo": {
+        "attributes": [
+          "category:train"
+        ]
+      },
+      "locationType": "station",
+      "defaultLanguage": "en",
+      "parent": {
+        "locationType": "city",
+        "name": "München",
+        "translatedName": "Munich"
+      },
+      "timezone": "Europe/Berlin",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:obb"
+      ]
+    }
+  ]
+}

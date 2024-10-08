@@ -1,0 +1,29 @@
+{
+  "searchLocations": [
+    {
+      "name": "Karlovac",
+      "countryCode": "HR",
+      "code": "urn:trainline:generic:loc:29587",
+      "score": 1.0168165E-05,
+      "longitude": 15.5553,
+      "latitude": 45.4929,
+      "extraInfo": {
+        "attributes": [
+          "BusStation",
+          "category:point"
+        ]
+      },
+      "locationType": "city",
+      "defaultLanguage": "en",
+      "timezone": "Europe/Zagreb",
+      "connections": [
+        "urn:trainline:connection:db",
+        "urn:trainline:connection:db_affiliate",
+        "urn:trainline:connection:db_pst",
+        "urn:trainline:connection:distribusion",
+        "urn:trainline:connection:flixbus_affiliate",
+        "urn:trainline:connection:obb"
+      ]
+    }
+  ]
+}
